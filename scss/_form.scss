@@ -1,0 +1,51 @@
+.wrapper {
+    width: 100%;
+
+    @media screen and (min-width: 1024px) {
+        width: 50%;
+      }
+}
+
+.input-field {
+    position: relative;
+    width: 100%;
+    margin-top: 3rem;
+}
+
+.input-field input,
+.input-field textarea {
+    width: 100%;
+    padding: 1rem 0;
+    box-sizing: border-box;
+    background-color: $white;
+    border: none;
+    outline: none;
+    font-size: 1rem;
+    color: $bg-gray;
+}
+
+.input-field label {
+    padding: 1rem 0;
+    pointer-events: none;
+    font-size: 1rem;
+    color: $white;
+}
+
+.input-field input:focus + label,
+.input-field textarea:focus + label {
+    font-size: 1rem;
+    background-color: $white;
+    color: $bg-gray;
+}
+
+.btn {
+    width: 100%;
+    margin-top: 2rem;
+    background-color: $black;
+    color: $white;
+    font-size: 2rem;
+    text-transform: uppercase;
+    padding: 1rem 2rem;
+    margin-left: auto;
+    margin-right: auto;
+}

@@ -1,0 +1,112 @@
+$font-base: 'Heebo', sans-serif;
+$font-headlines: 'Red Hat Display', sans-serif;
+$bg-gray: #595F66;
+$white: #fff;
+$black: #000;
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: $bg-gray;
+    min-height: 100vh;
+    position: relative;
+    color: $white;
+
+    .h1 {
+        font: $font-headlines;
+        font-size: 1.75rem;
+        font-weight: 700;
+        text-transform: uppercase;
+
+        @media screen and (min-width: 768px) {
+            font-size: 2.5rem;
+          }
+      
+        @media screen and (min-width: 1024px) {
+            font-size: 3.5rem;
+          }
+          
+        @media screen and (min-width: 1440px) {
+            font-size: 4.5rem;
+          }
+        
+          @media screen and (min-width: 2560px) {
+            font-size: 6rem;
+          }
+    }
+
+    .h2 {
+        font: $font-headlines;
+        font-size: 1.5rem;
+        font-weight: 700;
+        text-transform: uppercase;
+
+        @media screen and (min-width: 768px) {
+            font-size: 1.75rem;
+          }
+      
+        @media screen and (min-width: 1024px) {
+            font-size: 2rem;
+          }
+          
+        @media screen and (min-width: 1440px) {
+            font-size: 2.5rem;
+          }
+        
+          @media screen and (min-width: 2560px) {
+            font-size: 4rem;
+          }
+    }
+
+    .p1 {
+        font: $font-base;
+        font-size: 1rem;
+        font-weight: 100;
+
+        @media screen and (min-width: 768px) {
+            font-size: 1.5rem;
+          }
+      
+        @media screen and (min-width: 1024px) {
+            font-size: 1.75rem;
+          }
+          
+        @media screen and (min-width: 1440px) {
+            font-size: 2rem;
+          }
+        
+          @media screen and (min-width: 2560px) {
+            font-size: 2.5rem;
+          }
+    }
+
+    .p2 {
+        font: $font-base;
+        font-size: 0.75rem;
+        font-weight: 100;
+
+        @media screen and (min-width: 768px) {
+            font-size: 1rem;
+          }
+      
+        @media screen and (min-width: 1024px) {
+            font-size: 1.5rem;
+          }
+          
+        @media screen and (min-width: 1440px) {
+            font-size: 1.75rem;
+          }
+        
+          @media screen and (min-width: 2560px) {
+            font-size: 2rem;
+          }
+    }
+}
+

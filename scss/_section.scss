@@ -1,0 +1,163 @@
+section {
+    padding-bottom: 5rem;
+
+    .container {
+        padding-top: 5rem;
+        display: flex;
+        flex-direction: column;
+        padding-left: 2rem;
+        padding-right: 2rem;
+
+        @media screen and (min-width: 768px) {
+            padding-left: 5em;
+            padding-right: 5rem;
+          }
+      
+        @media screen and (min-width: 1024px) {
+            padding-left: 10rem;
+            padding-right: 10rem;
+          }
+          
+        @media screen and (min-width: 1440px) {
+            padding-left: 15rem;
+            padding-right: 15rem;
+          }
+        
+          @media screen and (min-width: 2560px) {
+            padding-left: 35rem;
+            padding-right: 35rem;
+          }
+    }
+    @media screen and (min-width: 768px) {
+        padding-top: 5rem;
+        padding-bottom: 5rem;
+      }
+  
+    @media screen and (min-width: 1024px) {
+        padding-top: 10rem;
+        padding-bottom: 5rem;
+      }
+      
+    @media screen and (min-width: 1440px) {
+        padding-top: 15rem;
+        padding-bottom: 5rem;
+      }
+    
+      @media screen and (min-width: 2560px) {
+        padding-top: 15rem;
+        padding-bottom: 10rem;
+      }
+
+      .headline {
+        background-color: $white;
+        color: $bg-gray;
+        width: fit-content;
+        padding: 1rem 1rem 1rem 2rem;
+
+        @media screen and (min-width: 768px) {
+            padding: 1rem 1rem 1rem 5rem;
+          }
+      
+        @media screen and (min-width: 1024px) {
+            padding: 1rem 2rem 1rem 10rem;
+          }
+          
+        @media screen and (min-width: 1440px) {
+            padding: 1rem 2rem 1rem 15rem;
+          }
+        
+          @media screen and (min-width: 2560px) {
+            padding: 1rem 5rem 1rem 35rem;
+          }
+      }
+}
+
+.section-hero {
+    padding-top: 12rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-bottom: 5rem;
+
+     .container-hero {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: start;
+
+        .item {
+            display: inline-block;
+            padding-bottom: 2.5rem;
+        }
+
+        .item:last-child {
+            padding-bottom: 0;
+        }
+     }
+
+     @media screen and (min-width: 768px) {
+        padding-top: 20rem;
+        padding-left: 5em;
+        padding-right: 5rem;
+        padding-bottom: 5rem;
+      }
+  
+    @media screen and (min-width: 1024px) {
+        padding-top: 20rem;
+        padding-left: 10rem;
+        padding-right: 10rem;
+        padding-bottom: 5rem;
+      }
+      
+    @media screen and (min-width: 1440px) {
+        padding-top: 30rem;
+        padding-left: 15rem;
+        padding-right: 15rem;
+        padding-bottom: 5rem;
+      }
+    
+      @media screen and (min-width: 2560px) {
+        padding-top: 40rem;
+        padding-left: 35rem;
+        padding-right: 35rem;
+        padding-bottom: 10rem;
+      }
+}
+
+
+.auto{
+    margin: auto;
+}
+.inline-block {
+    display: inline-block;
+}
+
+.flex-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: start;
+}
+
+.flex-col {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.img-star {
+    padding-right: 2rem;
+    width: 25%;
+}
+
+.flex-col-row {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    @media screen and (min-width: 1024px) {
+        flex-direction: row;
+      }
+
+}

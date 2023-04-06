@@ -1,0 +1,33 @@
+.header {
+    margin: 0;
+    padding: 0;
+    position: relative;
+    width: 100%;
+    background-color: transparent;
+
+
+    .logo {
+        display: block;
+        margin: 0;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 18rem; 
+
+        @media screen and (min-width: 768px) {
+            width: 25rem;
+          }
+      
+        @media screen and (min-width: 1024px) {
+            width: 30rem;
+          }
+          
+        @media screen and (min-width: 1440px) {
+            width: 40rem;
+          }
+        
+          @media screen and (min-width: 2560px) {
+            width: 55rem;
+          }
+    }
+}
